@@ -1,0 +1,20 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# MongoDB Memory Server cache
+.mongodb/
+**/.cache/
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
